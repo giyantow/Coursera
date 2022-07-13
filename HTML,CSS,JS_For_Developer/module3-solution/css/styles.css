@@ -1,0 +1,103 @@
+body {
+	background-color: #FFEBCD;
+	font-family: 'Indie Flower', cursive;
+	background-image: ;
+}
+/*START OF HEADER*/
+#header-nav {
+	background-color: #8B0000;
+	font-family: 'Lexend Deca', sans-serif;
+	background-color: #8B0000;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0px;
+}
+#header-nav .navbar-header a  {
+	text-decoration: none;
+	color: #000000;
+	margin-top: -15px;
+}
+button {
+	display: flex;
+	display: inline-block;
+}
+.nav-pills > li > a {
+	border-radius: 0px;
+}
+.nav-list {
+	background-color: #FFEBCD;
+}
+.nav-justified > li > a {
+	background-color: #FFEBCD;
+	margin: auto;
+	border-top: 2px solid black;
+	text-align: center;
+	text-decoration: none;
+	margin-left: -15px;
+	margin-right: -15px;
+}
+/*END OF HEADER*/
+
+/*Main Page*/
+#title a, #first a h3, #second a h3, #third a h3 {
+	text-decoration: none;
+	color: black;
+}
+#first a, #second a, #third a {
+	text-decoration: none;
+}
+h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+div .row {
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+div #first {
+	border: 2px solid black;
+	background-color: #B0C4DE;
+	margin-bottom: 15px;
+}
+div #second {
+	border: 2px solid black;
+	background-color: #B0C4DE;
+	margin-bottom: 15px;
+}
+div #third {
+	border: 2px solid black;
+	background-color: #B0C4DE;
+	margin-bottom: 15px;
+}
+
+/*******Desktop Version Only*******/
+@media (min-width: 992px) {
+ .row{
+ 	display: flex;}
+ #first, #second {
+ 	margin-right: 15px;
+ }
+
+ .col-md-4 {
+ 	width: 33.33%;
+ 	display: inline-block;
+ 	margin-right: auto;
+ }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
+  .col-sm-6 {
+  	width: 48.8%;
+  }
+
+div:nth-child(2){
+	float: right;
+}
+/*end of main page*/

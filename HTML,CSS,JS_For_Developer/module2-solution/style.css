@@ -1,0 +1,122 @@
+body 
+/*******Base Style*******/
+*	{box-sizing: border-box;
+}
+
+h1 {
+	Color : Blue;
+	text-align: center;
+	font-family: "Lucida Handwriting","Monaco", Monospace;
+	margin-bottom: 50px;
+	margin-top: 150px;
+	font-size: 4em;
+}
+
+div{
+	position: relative;
+	float: left;
+}
+#d1, #p1 {
+	background-color: #808000;
+}
+#d2, #p2 {
+	background-color: #ADFF2F;
+}
+#d3, #p3 {
+	background-color: #CD853F;
+}
+
+
+.col-lg-4, .col-md-6, .col-sm-12 {
+	border: 2px solid black;
+	margin: 10px;
+}
+
+section {
+	text-align: center;
+	margin-top: -1px;
+	margin-right: -1px;
+	border: 1px solid black;
+	padding: 3px;
+	width: 200px;
+	float: right;
+	font-family: "Verdana", Papyrus, fantasy;
+	font-size: 2em;
+	font-style: italic;
+	font-variant-caps: all-petite-caps;
+	font-weight: bold;
+
+} 
+
+
+#chicken {
+	background-color: #FFA07A;
+}
+#beef {
+	background-color: #48D1CC;
+}
+#sushi {
+	background-color: #F0E68C;
+}
+
+p {
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Verdana", Helvetica, monospace;
+  background-color: #8FBC8F;
+  color: white;
+  font-size: 1em;
+}
+
+
+
+/*******Simple Framework*******/
+.row {
+	width: 100%;
+	}
+
+
+
+
+/*******Desktop Version Only*******/
+@media (min-width: 992px) {
+ .row{
+ 	display: flex;}
+ .col-lg-4 {
+ 	width: 33.33%;
+ 	display: inline-block;
+ }
+
+}
+
+
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+  
+  .col-md-6 {
+  	width: 48%;
+  	margin: 5px;
+  	margin-bottom: 20px;
+  }
+
+div:nth-child(2){
+	float: right;
+}
+  div:nth-child(3) {
+	width: 99%;
+}
+
+
+
+
+
+/*******Mobile Version Only*******/
+@media (Max-width: 767px) {
+.col-sm-12 {
+	width: 100%;
+}
